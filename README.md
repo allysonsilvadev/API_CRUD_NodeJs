@@ -62,6 +62,7 @@ O servidor sobe em `http://localhost:3000`.
 | POST | `/usuarios` | Cria um novo usuário |
 | GET | `/usuarios` | Lista todos os usuários |
 | PUT | `/usuarios/:id` | Atualiza um usuário existente |
+| DELETE | `/usuarios/:id` | Exclui um usuário |
 
 ### Tarefas
 
@@ -127,6 +128,10 @@ O servidor sobe em `http://localhost:3000`.
 ### 6. Excluir uma tarefa
 - Método: `DELETE`
 - URL: `http://localhost:3000/task/COLE_AQUI_O_ID_DA_TASK`
+
+### 7. Excluir um usuário
+- Método: `DELETE`
+- URL: `http://localhost:3000/usuarios/COLE_AQUI_O_ID_DO_USUARIO`
 
 ## Códigos de status usados
 
